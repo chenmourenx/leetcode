@@ -15,6 +15,7 @@ public class _118_杨辉三角 {
                     row.add(ret.get(i - 1).get(j - 1) + ret.get(i - 1).get(j));
                 }
             }
+            ret.add(row);
         }
         return ret;
     }
